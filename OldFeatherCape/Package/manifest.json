@@ -2,7 +2,7 @@
   "name": "OldFeatherCape",
   "description": "",
   "version_number": "1.0.0",
-  "website_url": "",
+  "website_url": "https://github.com/Jumb0Frame/OldFeatherCape",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202",
     "ValheimModding-Jotunn-2.20.3"
