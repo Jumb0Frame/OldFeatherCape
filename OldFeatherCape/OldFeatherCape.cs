@@ -10,7 +10,7 @@ namespace OldFeatherCape
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
     internal class OldFeatherCape : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.jotunn.OldFeatherCape";
+        public const string PluginGUID = "com.jumb0frame.OldFeatherCape";
         public const string PluginName = "OldFeatherCape";
         public const string PluginVersion = "1.0.0";
 
