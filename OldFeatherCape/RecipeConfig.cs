@@ -1,8 +1,8 @@
 ﻿using Jotunn.Configs;
 
-namespace ModifiedAskSet
+namespace OldFeatherCape
 {
-    internal class OldFeatherCape
+    internal class RecipeConfig
     {
         private string name;
         private string description;
