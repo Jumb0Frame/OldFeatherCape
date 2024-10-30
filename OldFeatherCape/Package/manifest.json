@@ -1,10 +1,10 @@
 {
   "name": "OldFeatherCape",
   "description": "Why did they have to take away the jump height boost from the Valheim Feather Cape ? ",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/Jumb0Frame/OldFeatherCape",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202",
-    "ValheimModding-Jotunn-2.20.3"
+    "ValheimModding-Jotunn-2.21.1"
   ]
 }

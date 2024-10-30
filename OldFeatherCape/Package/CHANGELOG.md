@@ -1,5 +1,7 @@
 # Changelog
 
+## Version 1.0.2
+* Fix jump height bonus not being applied because of the latest game patch
 
 ## Version 1.0.1
 * Update readme

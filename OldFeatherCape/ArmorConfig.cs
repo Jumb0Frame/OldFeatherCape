@@ -28,7 +28,8 @@ namespace OldFeatherCape
         private float equipTime = 0f;
 
 
-        public ArmorConfig(string _name, string _desc, int _maxQual, float _weight, StatusEffect _equipeSE, string _setName, int _setSize, StatusEffect _setSE, float _movementMod, float _armor, float _armorPerLvl, float _maxDura, float _duraPerLvl, float _equipTime) 
+        public ArmorConfig(string _name, string _desc, int _maxQual, float _weight, StatusEffect _equipeSE, string _setName, int _setSize, StatusEffect _setSE, float _movementMod,
+                            float _armor, float _armorPerLvl, float _maxDura, float _duraPerLvl, float _equipTime) 
         { 
             name = _name;
             description = _desc;
