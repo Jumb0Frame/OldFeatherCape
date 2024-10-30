@@ -13,7 +13,7 @@ namespace OldFeatherCape
     {
         public const string PluginGUID = "com.jumb0frame.OldFeatherCape";
         public const string PluginName = "OldFeatherCape";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.0.3";
 
         private static StatusEffectsConfig capeSetEffects;
         private static ArmorConfig capeArmorConfig;
