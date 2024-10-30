@@ -1,6 +1,7 @@
 # Old Feather Cape
 
-Big Potion went after the Feather Cape, we won't stand for it!
+Big Potion went after the Feather Cape, we won't stand for it! \
+This mod allows you to craft a modified version of the "Feather Cape" called "Old Feather Cape" which has the +20% jump height that got taken away with the Bog Witch update. Use the Galdr table to craft it.
 
 ## Installation (manual)
 
@@ -10,7 +11,9 @@ If you do multiplayer on a dedicated server, everyone and the server need the pl
 
 ## Features
 
-Puts the +20% jump height boost back on the Feather Cape
+This mod allows you to craft a modified Feather Cape called Old Feather Cape. \
+This Old Feather Cape has the +20% jump height bonus back on it (including the other Feather Cape effects). \
+This modified cape is craftable at the Galdr table.
 
 ## Known issues
 

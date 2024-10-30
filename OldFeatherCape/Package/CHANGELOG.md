@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.3
+* Updated readme and descriptions to clarify what the mod does
+
 ## Version 1.0.2
 * Fix jump height bonus not being applied because of the latest game patch
 
