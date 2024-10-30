@@ -13,7 +13,7 @@ namespace OldFeatherCape
     {
         public const string PluginGUID = "com.jumb0frame.OldFeatherCape";
         public const string PluginName = "OldFeatherCape";
-        public const string PluginVersion = "1.0.4";
+        public const string PluginVersion = "1.0.5";
 
         private static StatusEffectsConfig capeSetEffects;
         private static ArmorConfig capeArmorConfig;
@@ -50,8 +50,6 @@ namespace OldFeatherCape
             CustomItem oldFeatherCape = new CustomItem("OldCapeFeather", "CapeFeather", capeRecipeConfig.GetRecipeConfig());
             ItemManager.Instance.AddItem(oldFeatherCape);
             capeArmorConfig.ApplyConfig(oldFeatherCape.ItemDrop);
-            
-            Jotunn.Logger.LogInfo(oldFeatherCape.ItemDrop.m_itemData.m_shared.m_setStatusEffect.GetTooltipString());
 
             PrefabManager.OnVanillaPrefabsAvailable -= AddOldFeatherCape;
         }
