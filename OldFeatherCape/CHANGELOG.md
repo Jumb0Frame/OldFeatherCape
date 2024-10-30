@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.4
+* Updated mod description in the manifest
+
 ## Version 1.0.3
 * Updated readme and descriptions to clarify what the mod does
 
