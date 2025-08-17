@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.5
+* Minor fix (removed warnings being thrown in the logs)
+
 ## Version 1.0.4
 * Updated mod description in the manifest
 

@@ -1,7 +1,7 @@
 {
   "name": "OldFeatherCape",
   "description": "This mod allows you to craft a modified version of the Feather Cape called Old Feather Cape which has the +20% jump height that got taken away with the Bog Witch update. Use the Galdr table to craft it.",
-  "version_number": "1.0.4",
+  "version_number": "1.0.5",
   "website_url": "https://github.com/Jumb0Frame/OldFeatherCape",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202",
