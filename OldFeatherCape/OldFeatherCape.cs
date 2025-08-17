@@ -26,7 +26,8 @@ namespace OldFeatherCape
             Jotunn.Logger.LogInfo("OldFeatherCape has landed");
 
             //capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig bump", "I'm feelin' springy");
-            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "I want to be like Icarus — just let me withstand the heat.");
+            // I want to be like Icarus — just let me withstand the heat.
+            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "Just let me jump all the way to the top of Yggdrasil; and fly back down safely!");
             capeSetEffects.SEStaminaConfig(0f, 0f, 0f, 0f, -0.2f, 0f, 0f, 0f, 0f, 0f, 0f, 0f);
 
             PrefabManager.OnVanillaPrefabsAvailable += AddOldFeatherCape;
