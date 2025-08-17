@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using BepInEx;
 using Jotunn.Configs;
 using Jotunn.Entities;
@@ -25,7 +26,7 @@ namespace OldFeatherCape
             Jotunn.Logger.LogInfo("OldFeatherCape has landed");
 
             //capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig bump", "I'm feelin' springy");
-            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "Just let me jump all the way to the top of Yggdrasil; and fly back down safely!");
+            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "I want to be like Icarus — just let me withstand the heat.");
             capeSetEffects.SEStaminaConfig(0f, 0f, 0f, 0f, -0.2f, 0f, 0f, 0f, 0f, 0f, 0f, 0f);
 
             PrefabManager.OnVanillaPrefabsAvailable += AddOldFeatherCape;
@@ -49,6 +50,18 @@ namespace OldFeatherCape
             capeArmorConfig = new ArmorConfig("Old Feather Cape", "The feather cape, but when it used to be great!", 4, 4f, setEffects, null, 0, null, 0f, 1, 1, 1200f, 50f, 0f);
             CustomItem oldFeatherCape = new CustomItem("OldCapeFeather", "CapeFeather", capeRecipeConfig.GetRecipeConfig());
             ItemManager.Instance.AddItem(oldFeatherCape);
+            //set fire resistance to normal (dirty change)
+            oldFeatherCape.ItemDrop.m_itemData.m_shared.m_damageModifiers = new List<HitData.DamageModPair>{
+                new HitData.DamageModPair
+                {
+                    m_type = HitData.DamageType.Fire,
+                    m_modifier = HitData.DamageModifier.Normal
+                },
+                new HitData.DamageModPair
+                {
+                    m_type = HitData.DamageType.Frost,
+                    m_modifier = HitData.DamageModifier.Resistant
+                }};
             capeArmorConfig.ApplyConfig(oldFeatherCape.ItemDrop);
 
             PrefabManager.OnVanillaPrefabsAvailable -= AddOldFeatherCape;
