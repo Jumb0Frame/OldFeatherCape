@@ -27,7 +27,7 @@ namespace OldFeatherCape
 
             //capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig bump", "I'm feelin' springy");
             // I want to be like Icarus — just let me withstand the heat.
-            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "Just let me jump all the way to the top of Yggdrasil; and fly back down safely!");
+            capeSetEffects = new StatusEffectsConfig("Old Feather Cape Set effects", "Jig Bump", "I want to be like Icarus — just let me withstand the heat.");
             capeSetEffects.SEStaminaConfig(0f, 0f, 0f, 0f, -0.2f, 0f, 0f, 0f, 0f, 0f, 0f, 0f);
 
             PrefabManager.OnVanillaPrefabsAvailable += AddOldFeatherCape;
