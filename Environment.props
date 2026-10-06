@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
    <!-- Needs to be your path to the base Valheim folder -->
-    <VALHEIM_INSTALL>C:\Users\ySiggen-Desktop\Desktop\Valheim</VALHEIM_INSTALL>
+    <VALHEIM_INSTALL>C:\Users\Admin\Desktop\Valheim</VALHEIM_INSTALL>
 	<!-- BepInEx install folder. This is usually found automatically, uncomment to overwrite.
          Note the default value $(VALHEIM_INSTALL)\BepInEx requires the VALHEIM_INSTALL property to be set. -->
     <BEPINEX_PATH>$(VALHEIM_INSTALL)\BepInEx</BEPINEX_PATH>

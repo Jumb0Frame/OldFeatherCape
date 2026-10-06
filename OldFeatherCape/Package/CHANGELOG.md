@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.0.7
+* And updated the changelog to indicate that the mod has been update for Valheim 1.0...
+
+## Version 1.0.6
+* Updated for Valheim 1.0
+
 ## Version 1.0.5
 * Minor fix (removed warnings being thrown in the logs)
 
